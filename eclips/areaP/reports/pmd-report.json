@@ -1,0 +1,279 @@
+{
+  "formatVersion": 0,
+  "pmdVersion": "6.40.0",
+  "timestamp": "2021-11-11T18:47:54.617-06:00",
+  "files": [
+    {
+      "filename": "src/AreaP.java",
+      "violations": [
+        {
+          "beginline": 3,
+          "begincolumn": 0,
+          "endline": 17,
+          "endcolumn": 0,
+          "description": "CommentRequired: Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 3,
+          "begincolumn": 0,
+          "endline": 17,
+          "endcolumn": 0,
+          "description": "CommentRequired: Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 3,
+          "begincolumn": 0,
+          "endline": 17,
+          "endcolumn": 0,
+          "description": "NoPackage: All classes, interfaces, enums and annotations must belong to a named package",
+          "rule": "NoPackage",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#nopackage"
+        },
+        {
+          "beginline": 3,
+          "begincolumn": 0,
+          "endline": 17,
+          "endcolumn": 0,
+          "description": "NoPackage: All classes, interfaces, enums and annotations must belong to a named package",
+          "rule": "NoPackage",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#nopackage"
+        },
+        {
+          "beginline": 3,
+          "begincolumn": 0,
+          "endline": 17,
+          "endcolumn": 0,
+          "description": "UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.",
+          "rule": "UseUtilityClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#useutilityclass"
+        },
+        {
+          "beginline": 3,
+          "begincolumn": 0,
+          "endline": 17,
+          "endcolumn": 0,
+          "description": "UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.",
+          "rule": "UseUtilityClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#useutilityclass"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 0,
+          "endline": 16,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 0,
+          "endline": 16,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 0,
+          "endline": 4,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027args\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 0,
+          "endline": 4,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027args\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 6,
+          "begincolumn": 0,
+          "endline": 6,
+          "endcolumn": 0,
+          "description": "ShortVariable: Avoid variables with short names like br",
+          "rule": "ShortVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable"
+        },
+        {
+          "beginline": 6,
+          "begincolumn": 0,
+          "endline": 6,
+          "endcolumn": 0,
+          "description": "ShortVariable: Avoid variables with short names like br",
+          "rule": "ShortVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable"
+        },
+        {
+          "beginline": 7,
+          "begincolumn": 0,
+          "endline": 7,
+          "endcolumn": 0,
+          "description": "ShortVariable: Avoid variables with short names like ar",
+          "rule": "ShortVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable"
+        },
+        {
+          "beginline": 7,
+          "begincolumn": 0,
+          "endline": 7,
+          "endcolumn": 0,
+          "description": "ShortVariable: Avoid variables with short names like ar",
+          "rule": "ShortVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable"
+        },
+        {
+          "beginline": 8,
+          "begincolumn": 0,
+          "endline": 8,
+          "endcolumn": 0,
+          "description": "CloseResource: Ensure that resources like this InputStream object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 8,
+          "begincolumn": 0,
+          "endline": 8,
+          "endcolumn": 0,
+          "description": "CloseResource: Ensure that resources like this InputStream object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 8,
+          "begincolumn": 0,
+          "endline": 8,
+          "endcolumn": 0,
+          "description": "LocalVariableCouldBeFinal: Local variable \u0027sc\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 8,
+          "begincolumn": 0,
+          "endline": 8,
+          "endcolumn": 0,
+          "description": "LocalVariableCouldBeFinal: Local variable \u0027sc\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 8,
+          "begincolumn": 0,
+          "endline": 8,
+          "endcolumn": 0,
+          "description": "ShortVariable: Avoid variables with short names like sc",
+          "rule": "ShortVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable"
+        },
+        {
+          "beginline": 8,
+          "begincolumn": 0,
+          "endline": 8,
+          "endcolumn": 0,
+          "description": "ShortVariable: Avoid variables with short names like sc",
+          "rule": "ShortVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable"
+        },
+        {
+          "beginline": 9,
+          "begincolumn": 0,
+          "endline": 9,
+          "endcolumn": 0,
+          "description": "SystemPrintln: System.out.println is used",
+          "rule": "SystemPrintln",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#systemprintln"
+        },
+        {
+          "beginline": 9,
+          "begincolumn": 0,
+          "endline": 9,
+          "endcolumn": 0,
+          "description": "SystemPrintln: System.out.println is used",
+          "rule": "SystemPrintln",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#systemprintln"
+        },
+        {
+          "beginline": 14,
+          "begincolumn": 0,
+          "endline": 14,
+          "endcolumn": 0,
+          "description": "SystemPrintln: System.out.println is used",
+          "rule": "SystemPrintln",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#systemprintln"
+        },
+        {
+          "beginline": 14,
+          "begincolumn": 0,
+          "endline": 14,
+          "endcolumn": 0,
+          "description": "SystemPrintln: System.out.println is used",
+          "rule": "SystemPrintln",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#systemprintln"
+        }
+      ]
+    }
+  ],
+  "suppressedViolations": [],
+  "processingErrors": [],
+  "configurationErrors": []
+}

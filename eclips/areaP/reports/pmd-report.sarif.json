@@ -1,0 +1,657 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PMD",
+          "version": "6.40.0",
+          "informationUri": "https://pmd.github.io/pmd/",
+          "rules": [
+            {
+              "id": "ShortVariable",
+              "shortDescription": {
+                "text": "ShortVariable: Avoid variables with short names like ar"
+              },
+              "fullDescription": {
+                "text": "\nFields, local variables, or parameter names that are very short are not helpful to the reader.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable",
+              "help": {
+                "text": "\nFields, local variables, or parameter names that are very short are not helpful to the reader.\n        "
+              },
+              "properties": {
+                "ruleset": "Code Style",
+                "priority": 3,
+                "tags": [
+                  "Code Style"
+                ]
+              }
+            },
+            {
+              "id": "NoPackage",
+              "shortDescription": {
+                "text": "NoPackage: All classes, interfaces, enums and annotations must belong to a named package"
+              },
+              "fullDescription": {
+                "text": "\nDetects when a class, interface, enum or annotation does not have a package definition.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#nopackage",
+              "help": {
+                "text": "\nDetects when a class, interface, enum or annotation does not have a package definition.\n        "
+              },
+              "properties": {
+                "ruleset": "Code Style",
+                "priority": 3,
+                "tags": [
+                  "Code Style"
+                ]
+              }
+            },
+            {
+              "id": "UseUtilityClass",
+              "shortDescription": {
+                "text": "UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning."
+              },
+              "fullDescription": {
+                "text": "\nFor classes that only have static methods, consider making them utility classes.\nNote that this doesn't apply to abstract classes, since their subclasses may\nwell include non-static methods.  Also, if you want this class to be a utility class,\nremember to add a private constructor to prevent instantiation.\n(Note, that this use was known before PMD 5.1.0 as UseSingleton).\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#useutilityclass",
+              "help": {
+                "text": "\nFor classes that only have static methods, consider making them utility classes.\nNote that this doesn't apply to abstract classes, since their subclasses may\nwell include non-static methods.  Also, if you want this class to be a utility class,\nremember to add a private constructor to prevent instantiation.\n(Note, that this use was known before PMD 5.1.0 as UseSingleton).\n        "
+              },
+              "properties": {
+                "ruleset": "Design",
+                "priority": 3,
+                "tags": [
+                  "Design"
+                ]
+              }
+            },
+            {
+              "id": "MethodArgumentCouldBeFinal",
+              "shortDescription": {
+                "text": "MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final"
+              },
+              "fullDescription": {
+                "text": "\nA method argument that is never re-assigned within the method can be declared final.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal",
+              "help": {
+                "text": "\nA method argument that is never re-assigned within the method can be declared final.\n        "
+              },
+              "properties": {
+                "ruleset": "Code Style",
+                "priority": 3,
+                "tags": [
+                  "Code Style"
+                ]
+              }
+            },
+            {
+              "id": "CommentRequired",
+              "shortDescription": {
+                "text": "CommentRequired: Public method and constructor comments are required"
+              },
+              "fullDescription": {
+                "text": "\nDenotes whether javadoc (formal) comments are required (or unwanted) for specific language elements.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired",
+              "help": {
+                "text": "\nDenotes whether javadoc (formal) comments are required (or unwanted) for specific language elements.\n        "
+              },
+              "properties": {
+                "ruleset": "Documentation",
+                "priority": 3,
+                "tags": [
+                  "Documentation"
+                ]
+              }
+            },
+            {
+              "id": "ShortVariable",
+              "shortDescription": {
+                "text": "ShortVariable: Avoid variables with short names like br"
+              },
+              "fullDescription": {
+                "text": "\nFields, local variables, or parameter names that are very short are not helpful to the reader.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable",
+              "help": {
+                "text": "\nFields, local variables, or parameter names that are very short are not helpful to the reader.\n        "
+              },
+              "properties": {
+                "ruleset": "Code Style",
+                "priority": 3,
+                "tags": [
+                  "Code Style"
+                ]
+              }
+            },
+            {
+              "id": "LocalVariableCouldBeFinal",
+              "shortDescription": {
+                "text": "LocalVariableCouldBeFinal: Local variable 'sc' could be declared final"
+              },
+              "fullDescription": {
+                "text": "\nA local variable assigned only once can be declared final.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal",
+              "help": {
+                "text": "\nA local variable assigned only once can be declared final.\n        "
+              },
+              "properties": {
+                "ruleset": "Code Style",
+                "priority": 3,
+                "tags": [
+                  "Code Style"
+                ]
+              }
+            },
+            {
+              "id": "SystemPrintln",
+              "shortDescription": {
+                "text": "SystemPrintln: System.out.println is used"
+              },
+              "fullDescription": {
+                "text": "\nReferences to System.(out|err).print are usually intended for debugging purposes and can remain in\nthe codebase even in production code. By using a logger one can enable/disable this behaviour at\nwill (and by priority) and avoid clogging the Standard out log.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#systemprintln",
+              "help": {
+                "text": "\nReferences to System.(out|err).print are usually intended for debugging purposes and can remain in\nthe codebase even in production code. By using a logger one can enable/disable this behaviour at\nwill (and by priority) and avoid clogging the Standard out log.\n        "
+              },
+              "properties": {
+                "ruleset": "Best Practices",
+                "priority": 2,
+                "tags": [
+                  "Best Practices"
+                ]
+              }
+            },
+            {
+              "id": "CommentRequired",
+              "shortDescription": {
+                "text": "CommentRequired: Class comments are required"
+              },
+              "fullDescription": {
+                "text": "\nDenotes whether javadoc (formal) comments are required (or unwanted) for specific language elements.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired",
+              "help": {
+                "text": "\nDenotes whether javadoc (formal) comments are required (or unwanted) for specific language elements.\n        "
+              },
+              "properties": {
+                "ruleset": "Documentation",
+                "priority": 3,
+                "tags": [
+                  "Documentation"
+                ]
+              }
+            },
+            {
+              "id": "ShortVariable",
+              "shortDescription": {
+                "text": "ShortVariable: Avoid variables with short names like sc"
+              },
+              "fullDescription": {
+                "text": "\nFields, local variables, or parameter names that are very short are not helpful to the reader.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable",
+              "help": {
+                "text": "\nFields, local variables, or parameter names that are very short are not helpful to the reader.\n        "
+              },
+              "properties": {
+                "ruleset": "Code Style",
+                "priority": 3,
+                "tags": [
+                  "Code Style"
+                ]
+              }
+            },
+            {
+              "id": "CloseResource",
+              "shortDescription": {
+                "text": "CloseResource: Ensure that resources like this InputStream object are closed after use"
+              },
+              "fullDescription": {
+                "text": "\nEnsure that resources (like `java.sql.Connection`, `java.sql.Statement`, and `java.sql.ResultSet` objects\nand any subtype of `java.lang.AutoCloseable`) are always closed after use.\nFailing to do so might result in resource leaks.\n\nNote: It suffices to configure the super type, e.g. `java.lang.AutoClosable`, so that this rule automatically triggers\non any subtype (e.g. `java.io.FileInputStream`). Additionally specifying `java.sql.Connection` helps in detecting\nthe types, if the type resolution / auxclasspath is not correctly setup.\n\nNote: Since PMD 6.16.0 the default value for the property `types` contains `java.lang.AutoCloseable` and detects\nnow cases where the standard `java.io.*Stream` classes are involved. In order to restore the old behaviour,\njust remove \"AutoCloseable\" from the types.\n        "
+              },
+              "helpUri": "https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#closeresource",
+              "help": {
+                "text": "\nEnsure that resources (like `java.sql.Connection`, `java.sql.Statement`, and `java.sql.ResultSet` objects\nand any subtype of `java.lang.AutoCloseable`) are always closed after use.\nFailing to do so might result in resource leaks.\n\nNote: It suffices to configure the super type, e.g. `java.lang.AutoClosable`, so that this rule automatically triggers\non any subtype (e.g. `java.io.FileInputStream`). Additionally specifying `java.sql.Connection` helps in detecting\nthe types, if the type resolution / auxclasspath is not correctly setup.\n\nNote: Since PMD 6.16.0 the default value for the property `types` contains `java.lang.AutoCloseable` and detects\nnow cases where the standard `java.io.*Stream` classes are involved. In order to restore the old behaviour,\njust remove \"AutoCloseable\" from the types.\n        "
+              },
+              "properties": {
+                "ruleset": "Error Prone",
+                "priority": 3,
+                "tags": [
+                  "Error Prone"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "ShortVariable",
+          "ruleIndex": 0,
+          "message": {
+            "text": "ShortVariable: Avoid variables with short names like ar"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 0,
+                  "endLine": 7,
+                  "endColumn": 0
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 0,
+                  "endLine": 7,
+                  "endColumn": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "NoPackage",
+          "ruleIndex": 1,
+          "message": {
+            "text": "NoPackage: All classes, interfaces, enums and annotations must belong to a named package"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 0,
+                  "endLine": 17,
+                  "endColumn": 0
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 0,
+                  "endLine": 17,
+                  "endColumn": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UseUtilityClass",
+          "ruleIndex": 2,
+          "message": {
+            "text": "UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 0,
+                  "endLine": 17,
+                  "endColumn": 0
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 0,
+                  "endLine": 17,
+                  "endColumn": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "MethodArgumentCouldBeFinal",
+          "ruleIndex": 3,
+          "message": {
+            "text": "MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 0,
+                  "endLine": 4,
+                  "endColumn": 0
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 0,
+                  "endLine": 4,
+                  "endColumn": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CommentRequired",
+          "ruleIndex": 4,
+          "message": {
+            "text": "CommentRequired: Public method and constructor comments are required"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 0,
+                  "endLine": 16,
+                  "endColumn": 0
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 0,
+                  "endLine": 16,
+                  "endColumn": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "ShortVariable",
+          "ruleIndex": 5,
+          "message": {
+            "text": "ShortVariable: Avoid variables with short names like br"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 0,
+                  "endLine": 6,
+                  "endColumn": 0
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 0,
+                  "endLine": 6,
+                  "endColumn": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "LocalVariableCouldBeFinal",
+          "ruleIndex": 6,
+          "message": {
+            "text": "LocalVariableCouldBeFinal: Local variable 'sc' could be declared final"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 0,
+                  "endLine": 8,
+                  "endColumn": 0
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 0,
+                  "endLine": 8,
+                  "endColumn": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "SystemPrintln",
+          "ruleIndex": 7,
+          "message": {
+            "text": "SystemPrintln: System.out.println is used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 0,
+                  "endLine": 9,
+                  "endColumn": 0
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 0,
+                  "endLine": 9,
+                  "endColumn": 0
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 0,
+                  "endLine": 14,
+                  "endColumn": 0
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 0,
+                  "endLine": 14,
+                  "endColumn": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CommentRequired",
+          "ruleIndex": 8,
+          "message": {
+            "text": "CommentRequired: Class comments are required"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 0,
+                  "endLine": 17,
+                  "endColumn": 0
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 0,
+                  "endLine": 17,
+                  "endColumn": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "ShortVariable",
+          "ruleIndex": 9,
+          "message": {
+            "text": "ShortVariable: Avoid variables with short names like sc"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 0,
+                  "endLine": 8,
+                  "endColumn": 0
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 0,
+                  "endLine": 8,
+                  "endColumn": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CloseResource",
+          "ruleIndex": 10,
+          "message": {
+            "text": "CloseResource: Ensure that resources like this InputStream object are closed after use"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 0,
+                  "endLine": 8,
+                  "endColumn": 0
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/AreaP.java"
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 0,
+                  "endLine": 8,
+                  "endColumn": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "toolConfigurationNotifications": [],
+          "toolExecutionNotifications": []
+        }
+      ]
+    }
+  ]
+}

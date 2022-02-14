@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.40.0" timestamp="2021-11-11T18:24:00.379">
+<file name="src/SimpleWebServer.java">
+<violation beginline="1" endline="11" begincolumn="0" endcolumn="0" rule="CommentSize" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentsize" priority="3">
+CommentSize: Comment is too large: Too many lines
+</violation>
+<violation beginline="1" endline="11" begincolumn="0" endcolumn="0" rule="CommentSize" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentsize" priority="3">
+CommentSize: Comment is too large: Too many lines
+</violation>
+<violation beginline="18" endline="131" begincolumn="0" endcolumn="0" rule="NoPackage" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="18" endline="131" begincolumn="0" endcolumn="0" rule="NoPackage" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="27" endline="29" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="27" endline="29" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#signaturedeclarethrowsexception" priority="3">
+SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#signaturedeclarethrowsexception" priority="3">
+SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="AssignmentToNonFinalStatic" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#assignmenttononfinalstatic" priority="3">
+AssignmentToNonFinalStatic: Possible unsafe assignment to a non-final static field in a constructor.
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="AssignmentToNonFinalStatic" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#assignmenttononfinalstatic" priority="3">
+AssignmentToNonFinalStatic: Possible unsafe assignment to a non-final static field in a constructor.
+</violation>
+<violation beginline="31" endline="39" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="31" endline="39" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="31" endline="31" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#signaturedeclarethrowsexception" priority="3">
+SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+</violation>
+<violation beginline="31" endline="31" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#signaturedeclarethrowsexception" priority="3">
+SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+CloseResource: Ensure that resources like this Socket object are closed after use
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+CloseResource: Ensure that resources like this Socket object are closed after use
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 's' could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 's' could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like s
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like s
+</violation>
+<violation beginline="44" endline="82" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="44" endline="82" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 's' is not assigned and could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like s
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like s
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#signaturedeclarethrowsexception" priority="3">
+SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#signaturedeclarethrowsexception" priority="3">
+SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+</violation>
+<violation beginline="46" endline="46" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+CloseResource: Ensure that resources like this InputStreamReader object are closed after use
+</violation>
+<violation beginline="46" endline="46" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+CloseResource: Ensure that resources like this InputStreamReader object are closed after use
+</violation>
+<violation beginline="46" endline="48" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'br' could be declared final
+</violation>
+<violation beginline="46" endline="48" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'br' could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like br
+</violation>
+<violation beginline="46" endline="46" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like br
+</violation>
+<violation beginline="51" endline="51" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+CloseResource: Ensure that resources like this OutputStreamWriter object are closed after use
+</violation>
+<violation beginline="51" endline="51" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+CloseResource: Ensure that resources like this OutputStreamWriter object are closed after use
+</violation>
+<violation beginline="51" endline="52" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'osw' could be declared final
+</violation>
+<violation beginline="51" endline="52" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'osw' could be declared final
+</violation>
+<violation beginline="55" endline="55" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'request' could be declared final
+</violation>
+<violation beginline="55" endline="55" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'request' could be declared final
+</violation>
+<violation beginline="57" endline="64" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'command' (lines '57'-'64').
+</violation>
+<violation beginline="57" endline="64" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'command' (lines '57'-'64').
+</violation>
+<violation beginline="57" endline="57" begincolumn="0" endcolumn="0" rule="UnusedAssignment" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+UnusedAssignment: The initializer for variable 'command' is never used (overwritten on line 64)
+</violation>
+<violation beginline="57" endline="57" begincolumn="0" endcolumn="0" rule="UnusedAssignment" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+UnusedAssignment: The initializer for variable 'command' is never used (overwritten on line 64)
+</violation>
+<violation beginline="58" endline="65" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'pathname' (lines '58'-'65').
+</violation>
+<violation beginline="58" endline="65" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'pathname' (lines '58'-'65').
+</violation>
+<violation beginline="58" endline="58" begincolumn="0" endcolumn="0" rule="UnusedAssignment" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+UnusedAssignment: The initializer for variable 'pathname' is never used (overwritten on line 65)
+</violation>
+<violation beginline="58" endline="58" begincolumn="0" endcolumn="0" rule="UnusedAssignment" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+UnusedAssignment: The initializer for variable 'pathname' is never used (overwritten on line 65)
+</violation>
+<violation beginline="61" endline="62" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'st' could be declared final
+</violation>
+<violation beginline="61" endline="62" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'st' could be declared final
+</violation>
+<violation beginline="61" endline="61" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like st
+</violation>
+<violation beginline="61" endline="61" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like st
+</violation>
+<violation beginline="65" endline="82" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'pathname' (lines '65'-'82').
+</violation>
+<violation beginline="65" endline="82" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'pathname' (lines '65'-'82').
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincomparisons" priority="3">
+PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincomparisons" priority="3">
+PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="84" endline="121" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="84" endline="121" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="84" endline="84" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'osw' is not assigned and could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'osw' is not assigned and could be declared final
+</violation>
+<violation beginline="85" endline="85" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#signaturedeclarethrowsexception" priority="3">
+SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+</violation>
+<violation beginline="85" endline="85" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#signaturedeclarethrowsexception" priority="3">
+SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+</violation>
+<violation beginline="86" endline="86" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+CloseResource: Ensure that resources like this FileReader object are closed after use
+</violation>
+<violation beginline="86" endline="86" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+CloseResource: Ensure that resources like this FileReader object are closed after use
+</violation>
+<violation beginline="86" endline="102" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'fr' (lines '86'-'102').
+</violation>
+<violation beginline="86" endline="102" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'fr' (lines '86'-'102').
+</violation>
+<violation beginline="86" endline="86" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like fr
+</violation>
+<violation beginline="86" endline="86" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like fr
+</violation>
+<violation beginline="86" endline="86" begincolumn="0" endcolumn="0" rule="UnusedAssignment" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+UnusedAssignment: The initializer for variable 'fr' is never used (overwritten on line 102)
+</violation>
+<violation beginline="86" endline="86" begincolumn="0" endcolumn="0" rule="UnusedAssignment" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+UnusedAssignment: The initializer for variable 'fr' is never used (overwritten on line 102)
+</violation>
+<violation beginline="87" endline="103" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'c' (lines '87'-'103').
+</violation>
+<violation beginline="87" endline="103" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'c' (lines '87'-'103').
+</violation>
+<violation beginline="87" endline="87" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like c
+</violation>
+<violation beginline="87" endline="87" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like c
+</violation>
+<violation beginline="87" endline="87" begincolumn="0" endcolumn="0" rule="UnusedAssignment" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+UnusedAssignment: The initializer for variable 'c' is never used (overwritten on line 103)
+</violation>
+<violation beginline="87" endline="87" begincolumn="0" endcolumn="0" rule="UnusedAssignment" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+UnusedAssignment: The initializer for variable 'c' is never used (overwritten on line 103)
+</violation>
+<violation beginline="88" endline="121" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'sb' (lines '88'-'121').
+</violation>
+<violation beginline="88" endline="121" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'sb' (lines '88'-'121').
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'sb' could be declared final
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'sb' could be declared final
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="PrematureDeclaration" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#prematuredeclaration" priority="3">
+PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="PrematureDeclaration" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#prematuredeclaration" priority="3">
+PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like sb
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like sb
+</violation>
+<violation beginline="92" endline="92" begincolumn="0" endcolumn="0" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="92" endline="92" begincolumn="0" endcolumn="0" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="92" endline="93" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="92" endline="93" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="93" endline="93" begincolumn="0" endcolumn="0" rule="AvoidReassigningParameters" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#avoidreassigningparameters" priority="2">
+AvoidReassigningParameters: Avoid reassigning parameters such as 'pathname'
+</violation>
+<violation beginline="93" endline="93" begincolumn="0" endcolumn="0" rule="AvoidReassigningParameters" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#avoidreassigningparameters" priority="2">
+AvoidReassigningParameters: Avoid reassigning parameters such as 'pathname'
+</violation>
+<violation beginline="93" endline="93" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="93" endline="93" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="93" endline="93" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="93" endline="93" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="97" endline="98" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="97" endline="98" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="97" endline="97" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="97" endline="97" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="97" endline="97" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="97" endline="97" begincolumn="0" endcolumn="0" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+LiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="97" endline="97" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincomparisons" priority="3">
+PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="97" endline="97" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Best Practices" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincomparisons" priority="3">
+PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+</violation>
+<violation beginline="98" endline="98" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="98" endline="98" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="102" endline="102" begincolumn="0" endcolumn="0" rule="AvoidFileStream" ruleset="Performance" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
+AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="102" endline="102" begincolumn="0" endcolumn="0" rule="AvoidFileStream" ruleset="Performance" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
+AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="103" endline="121" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'c' (lines '103'-'121').
+</violation>
+<violation beginline="103" endline="121" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'c' (lines '103'-'121').
+</violation>
+<violation beginline="105" endline="105" begincolumn="0" endcolumn="0" rule="AvoidCatchingGenericException" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="105" endline="105" begincolumn="0" endcolumn="0" rule="AvoidCatchingGenericException" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="125" endline="130" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="125" endline="130" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="125" endline="125" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'argv' is not assigned and could be declared final
+</violation>
+<violation beginline="125" endline="125" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'argv' is not assigned and could be declared final
+</violation>
+<violation beginline="125" endline="125" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#signaturedeclarethrowsexception" priority="3">
+SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+</violation>
+<violation beginline="125" endline="125" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Design" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#signaturedeclarethrowsexception" priority="3">
+SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+</violation>
+<violation beginline="128" endline="128" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'sws' could be declared final
+</violation>
+<violation beginline="128" endline="128" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="SimpleWebServer" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'sws' could be declared final
+</violation>
+</file>
+</pmd>

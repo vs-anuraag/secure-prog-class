@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.40.0" timestamp="2021-11-11T18:47:54.625">
+<file name="src/AreaP.java">
+<violation beginline="3" endline="17" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Class comments are required
+</violation>
+<violation beginline="3" endline="17" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Class comments are required
+</violation>
+<violation beginline="3" endline="17" begincolumn="0" endcolumn="0" rule="NoPackage" ruleset="Code Style" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="3" endline="17" begincolumn="0" endcolumn="0" rule="NoPackage" ruleset="Code Style" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="3" endline="17" begincolumn="0" endcolumn="0" rule="UseUtilityClass" ruleset="Design" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="3" endline="17" begincolumn="0" endcolumn="0" rule="UseUtilityClass" ruleset="Design" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="4" endline="16" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="4" endline="16" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like br
+</violation>
+<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like br
+</violation>
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like ar
+</violation>
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like ar
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Error Prone" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+CloseResource: Ensure that resources like this InputStream object are closed after use
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Error Prone" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+CloseResource: Ensure that resources like this InputStream object are closed after use
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'sc' could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'sc' could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like sc
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like sc
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="14" endline="14" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+<violation beginline="14" endline="14" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="(default)" class="AreaP" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.println is used
+</violation>
+</file>
+</pmd>

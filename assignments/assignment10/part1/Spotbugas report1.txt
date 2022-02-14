@@ -1,0 +1,25 @@
+Bug: Write to static field SimpleWebServer.dServerSocket from instance method new SimpleWebServer()
+
+This instance method writes to a static field. This is tricky to get correct if multiple instances are being manipulated, and generally bad practice. 
+
+Rank: Of Concern (15), confidence: High
+Pattern: ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD 
+Type: ST, Category: STYLE (Dodgy code)
+
+
+XML output:
+<BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1">
+  <Class classname="SimpleWebServer">
+    <SourceLine classname="SimpleWebServer" sourcefile="SimpleWebServer.java" sourcepath="SimpleWebServer.java"/>
+  </Class>
+  <Method classname="SimpleWebServer" name="<init>" signature="()V" isStatic="false">
+    <SourceLine classname="SimpleWebServer" start="27" end="29" startBytecode="0" endBytecode="67" sourcefile="SimpleWebServer.java" sourcepath="SimpleWebServer.java"/>
+  </Method>
+  <Field classname="SimpleWebServer" name="dServerSocket" signature="Ljava/net/ServerSocket;" isStatic="true">
+    <SourceLine classname="SimpleWebServer" sourcefile="SimpleWebServer.java" sourcepath="SimpleWebServer.java"/>
+  </Field>
+  <SourceLine classname="SimpleWebServer" start="28" end="28" startBytecode="14" endBytecode="14" sourcefile="SimpleWebServer.java" sourcepath="SimpleWebServer.java"/>
+  <SourceLine classname="SimpleWebServer" start="28" end="28" startBytecode="14" endBytecode="14" sourcefile="SimpleWebServer.java" sourcepath="SimpleWebServer.java"/>
+</BugInstance>
+
+

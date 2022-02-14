@@ -1,0 +1,28 @@
+src/areaP.java(3,  ClassNamingConventions):  ClassNamingConventions: The class name 'areaP' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/areaP.java(3,  ClassNamingConventions):  ClassNamingConventions: The class name 'areaP' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/areaP.java(3,  CommentRequired):  CommentRequired: Class comments are required
+src/areaP.java(3,  CommentRequired):  CommentRequired: Class comments are required
+src/areaP.java(3,  NoPackage):  NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/areaP.java(3,  NoPackage):  NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/areaP.java(3,  UseUtilityClass):  UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/areaP.java(3,  UseUtilityClass):  UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/areaP.java(4,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/areaP.java(4,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/areaP.java(4,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/areaP.java(4,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/areaP.java(5,  OneDeclarationPerLine):  OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/areaP.java(5,  OneDeclarationPerLine):  OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/areaP.java(5,  ShortVariable):  ShortVariable: Avoid variables with short names like ar
+src/areaP.java(5,  ShortVariable):  ShortVariable: Avoid variables with short names like ar
+src/areaP.java(5,  ShortVariable):  ShortVariable: Avoid variables with short names like br
+src/areaP.java(5,  ShortVariable):  ShortVariable: Avoid variables with short names like br
+src/areaP.java(6,  CloseResource):  CloseResource: Ensure that resources like this InputStream object are closed after use
+src/areaP.java(6,  CloseResource):  CloseResource: Ensure that resources like this InputStream object are closed after use
+src/areaP.java(6,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'sc' could be declared final
+src/areaP.java(6,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'sc' could be declared final
+src/areaP.java(6,  ShortVariable):  ShortVariable: Avoid variables with short names like sc
+src/areaP.java(6,  ShortVariable):  ShortVariable: Avoid variables with short names like sc
+src/areaP.java(7,  SystemPrintln):  SystemPrintln: System.out.println is used
+src/areaP.java(7,  SystemPrintln):  SystemPrintln: System.out.println is used
+src/areaP.java(12,  SystemPrintln):  SystemPrintln: System.out.println is used
+src/areaP.java(12,  SystemPrintln):  SystemPrintln: System.out.println is used

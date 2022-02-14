@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.0" sequence="2" timestamp="1636926997087" analysisTimestamp="1636926995589" release="">
+  <Project projectName="areaP">
+    <Jar>D:\Secure programing\eclips\areaP\bin\areaP.class</Jar>
+    <AuxClasspathEntry>D:\Secure programing\eclips\areaP\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-14.0.2\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>D:\Secure programing\eclips\areaP\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="areaP">
+      <SourceLine classname="areaP" sourcefile="areaP.java" sourcepath="areaP.java"/>
+    </Class>
+    <Method classname="areaP" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="areaP" start="6" end="14" startBytecode="0" endBytecode="164" sourcefile="areaP.java" sourcepath="areaP.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="566" end="567" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="areaP" start="6" end="6" startBytecode="7" endBytecode="7" sourcefile="areaP.java" sourcepath="areaP.java"/>
+    <SourceLine classname="areaP" start="6" end="6" startBytecode="7" endBytecode="7" sourcefile="areaP.java" sourcepath="areaP.java"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="areaP">
+      <SourceLine classname="areaP" start="3" end="14" sourcefile="areaP.java" sourcepath="areaP.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 11 Nov 2021 18:50:37 -0600" total_classes="1" referenced_classes="17" total_bugs="2" total_size="11" num_packages="1" java_version="14.0.2" vm_version="14.0.2+12-46" cpu_seconds="9.62" clock_seconds="114.58" peak_mbytes="459.24" alloc_mbytes="2048.00" gc_seconds="0.04" priority_2="1" priority_1="1">
+    <PackageStats package="" total_bugs="2" total_types="1" total_size="11" priority_2="1" priority_1="1">
+      <ClassStats class="areaP" sourceFile="areaP.java" interface="false" size="11" bugs="2" priority_2="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="645" invocations="2" avgMicrosecondsPerInvocation="322538" maxMicrosecondsPerInvocation="552340" standardDeviationMicrosecondsPerInvocation="229802"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="217" invocations="404" avgMicrosecondsPerInvocation="537" maxMicrosecondsPerInvocation="14004" standardDeviationMicrosecondsPerInvocation="1317"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="92" invocations="405" avgMicrosecondsPerInvocation="228" maxMicrosecondsPerInvocation="8942" standardDeviationMicrosecondsPerInvocation="538"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="48" invocations="17" avgMicrosecondsPerInvocation="2869" maxMicrosecondsPerInvocation="20844" standardDeviationMicrosecondsPerInvocation="5088"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1636677492301" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1636677492301" release="" codeSize="11" numClasses="1"/>
+  </History>
+</BugCollection>

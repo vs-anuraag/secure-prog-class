@@ -1,0 +1,7 @@
+• Unzip the folder
+• And install python3 and required libraries
+• Then give the program permissions to execute the code.
+• To add a record into phonebook: “python3 inputvalidation.py ADD <name>`<phone number>`”
+• To delete a record from phonebook: “python3 inputvalidation.py DEL <name>” or “python3
+inputvalidation.py DEL <phone number>”
+• To list all the records in the database: “python3 inputvalidation.py LIST”
